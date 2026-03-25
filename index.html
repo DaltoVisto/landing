@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mi Sitio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h2>MiLogo</h2>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+
+    <!-- CARDS -->
+    <section class="container">
+
+      <article class="card">
+        <img class="imgcard" src="img/fotohero.jpg" alt="MyN" />
+        <h2>MyN</h2>
+        <p>Dedicada a la venta de ropa.</p>
+        <button onclick="cargarPagina('https://mynpilar.vercel.app/')">Ver más</button>
+      </article>
+
+      <article class="card">
+        <img class="imgcard" src="img/icono1.png" alt="DaltoVisto" />
+        <h2>DaltoVisto</h2>
+        <p>Información sobre dificultades visuales.</p>
+        <button onclick="cargarPagina('https://daltovistoweb.vercel.app/')">Ver más</button>
+      </article>
+
+      <article class="card">
+        <img class="imgcard" src="https://picsum.photos/300/200?random=3" alt="Marketing" />
+        <h2>Marketing</h2>
+        <p>Estrategias digitales que generan impacto.</p>
+        <button onclick="cargarPagina('https://example.org')">Ver más</button>
+      </article>
+
+    </section>
+
+    <!-- VISOR (IFRAME) con contenedor para centrar -->
+    <section class="visor-section">
+      <div class="iframe-wrapper">
+        <iframe id="visor" src=""></iframe>
+      </div>
+    </section>
+
+  </main>
+  <div>
+    <h2>Contacto</h2>
+  </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div class="footer-section">
+        <h2>MiLogo</h2>
+        <p>Creando experiencias digitales modernas y atractivas.</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Enlaces</h3>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <p>Email: contacto@mail.com</p>
+        <p>Tel: +54 11 1234-5678</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Seguinos</h3>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 MiLogo | Todos los derechos reservados</p>
+    </div>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
