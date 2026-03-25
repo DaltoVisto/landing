@@ -412,3 +412,17 @@ header {
   transform-origin: top left;
   display: block;
 }
+#formulario{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+form{
+    display: grid;
+    justify-content: center;
+}
+.input{
+    padding: 10px;
+    margin: 20px;
+    width: 500px;
+}
